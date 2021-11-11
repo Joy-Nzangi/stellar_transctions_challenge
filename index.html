@@ -6,24 +6,20 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h1>Payment made fast and easy</h1>
+  <div id="mytext">
+    <h1>Payment made fast and easy</h1>
   <p> View your transactions and more </p>
-
-  <!--
-    <ul id="transactions">    
-    </ul> -->
+    
+  </div>
+  <br>
+  <br>
 
     <table id="transactions">
       <tr>
-        <th>Name</th>
-        <th>Transaction</th>
+        <th>TransactionID</th>
       </tr>
-        <tr>
-        <td></td>
-        <td></td>
-      </tr>
-      
     </table>
+
     <button onclick="handleFetchTransactions()"> Fetch transactions</button>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/9.0.1/stellar-sdk.js"></script>
     <script src="./fetch_stellar.js"></script>
