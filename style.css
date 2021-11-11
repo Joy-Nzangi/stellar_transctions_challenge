@@ -25,7 +25,7 @@ th {
 button {
 	border: 0.7px solid #dddddd;
 	text-align: center;
-	margin: 10px;
+	margin-top: auto;
+	margin-bottom: 30px;
 	padding: 8px;
-
 }
