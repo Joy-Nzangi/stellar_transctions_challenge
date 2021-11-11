@@ -16,7 +16,7 @@
              let transactions = resp.records;
              console.log(transactions);
             transactions.map(transaction => {
-                trxList.innerHTML += `<li>${transaction.id}</li>`;
+                trxList.innerHTML += `<tr><td>${transaction.id}</tr></td>`;
             })
  
          })
