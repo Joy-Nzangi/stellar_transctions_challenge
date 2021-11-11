@@ -1,6 +1,7 @@
 body {
-	background: linen;
-	align: center;
+	background: white;
+	text-align: center;
+	font-family: sans-serif;
 }
 
 table {
@@ -9,12 +10,22 @@ table {
   width: 100%;
 }
 
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
+td {
+  border: 0.7px solid #dddddd;
+  text-align: center;
   padding: 8px;
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
+th {
+  background-color: linen;
+  text-align: center;
+  padding: 8px;
+}
+
+button {
+	border: 0.7px solid #dddddd;
+	text-align: center;
+	margin: 10px;
+	padding: 8px;
+
 }
