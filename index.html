@@ -8,19 +8,17 @@
 <body>
   <div id="mytext">
     <h1>Payment made fast and easy</h1>
-  <p> View your transactions and more </p>
-    
+  <p> Hello want to see the latest transactions? </p>    
   </div>
-  <br>
-  <br>
 
-    <table id="transactions">
+    <button onclick="handleFetchTransactions()"> Fetch Transactions</button>
+
+        <table id="transactions">
       <tr>
         <th>TransactionID</th>
       </tr>
     </table>
 
-    <button onclick="handleFetchTransactions()"> Fetch transactions</button>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/9.0.1/stellar-sdk.js"></script>
     <script src="./fetch_stellar.js"></script>
 </body>
